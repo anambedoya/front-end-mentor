@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+body {
+    font-size: 15px;
+    font-family: 'Inter';
+    background-color: hsl(233, 47%, 7%);
+}
+
+span {
+    font-size: 15px;
+    color: hsl(0, 0%, 100%, 0.75);
+}
+
+strong {
+    color: hsl(277, 64%, 61%);
+}
+
+.attribution {
+    color: hsl(0, 0%, 100%, 0.75); 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.card {
+    background-color: hsl(244, 38%, 16%);
+    display: flex;
+    width: fit-content;
+    margin: auto;
+    border-radius: 1%;
+    margin-top: 137px;
+}
+
+.companies {
+    display: flex;
+    flex-direction: column;
+}
+
+.description {
+    color: hsl(0, 0%, 100%, 0.75);
+    width: 351px;
+    padding-bottom: 78px;
+}
+
+.heading {
+    color: hsl(0, 0%, 100%);
+    width: 325px;
+}
+
+.information {
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.numbers {
+    color: hsl(0, 0%, 100%);
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.people {
+    background-color: hsl(277, 64%, 61%);
+    max-height: 446px;
+}
+
+.people img {
+    opacity: 0.6;
+    filter: grayscale(1);
+    filter: grayscale(100%);
+}
+
+.statistics {
+    display: flex;
+    justify-content: space-around;
+}
+
+.templates {
+    display: flex;
+    flex-direction: column;
+}
+
+.queries {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1080px){
+    .card {
+        display: flex;
+        flex-direction: column-reverse;
+        max-width: fit-content;
+    }
+
+    .companies {
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+    .statistics {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .templates {
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+    .queries {
+        align-items: center;
+    }
+}
+
